@@ -2,7 +2,7 @@ import requests
 import json
 
 
-URL = "https://translate.yandex.net/api/v1.5/tr.json/translate"                                      # Это адрес для обращения к API
+URL = "https://translate.yandex.net/api/v1.5/tr.json/translate"                                                     # Это адрес для обращения к API
 headers = {'User-Agent': ('Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 ''Firefox/14.0.1')}
 
 class Translate():
