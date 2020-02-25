@@ -6,7 +6,7 @@ URL = "https://translate.yandex.net/api/v1.5/tr.json/translate"                 
 headers = {'User-Agent': ('Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 ''Firefox/14.0.1')}
 
 class Translate():
-    """"класс Translate содержит методы для хранения и последующего
+    """класс Translate содержит методы для хранения и последующего
     перевода слов с русского языка на английский"""
 
     def __init__(self,word):
@@ -28,6 +28,6 @@ class Translate():
 
 
     def store_memory(self, new_element_memory):
-        """"Хранение введенных слов"""
+        """Хранение введенных слов"""
         self.memory.append(new_element_memory)
 
