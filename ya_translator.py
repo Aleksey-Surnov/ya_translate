@@ -16,7 +16,7 @@ def get_tarnslate_word(word=''):
 
 
 def input_word():
-    """Выполнение ввода слов."""
+    """Выполнение ввода слов для перевода."""
     while True:
         print(Fore.BLUE+ 'Введите слово для перевода или введите "stop" для остановки и получения результата: ', end='')
         ts.word=input().lower()
